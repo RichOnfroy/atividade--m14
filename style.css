@@ -1,0 +1,55 @@
+.font-style{
+    font-family: Mate, sans-serif;
+}
+.navbar{
+    background-color: #c1c1c1;
+}
+#cabesalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #000;
+}
+#cabesalho .nav .nav-link,
+.nav-products .nav-link.active:hover{
+    color: #fff;
+}
+.nav-products .nav-link.active,
+#contato button{
+    background-color: #000;
+    color: #fff;
+}
+.row button{
+    background-color: #ccc;
+    color: #000;
+}
+.row button:hover{
+    color: #000;
+}
+#produtos{
+    background-color: #ccc;
+}
+.bt-color{
+    background-color: #000;
+    color: #fff;
+}
+
+#produtos img{
+    width: 221px;
+    height: 280px;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links a{
+    text-decoration: none;
+    color: #000
+}
+.nav .nav-pills button{
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    #produtos img{
+        height: 361px;
+    }
+}
